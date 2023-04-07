@@ -1,0 +1,63 @@
+{
+    "@startingState": "Q37",
+    "Q29": {
+        "@isTerminatingState": false,
+        "a": [
+            "Q30"
+        ]
+    },
+    "Q30": {
+        "@isTerminatingState": false,
+        "b": [
+            "Q31"
+        ]
+    },
+    "Q31": {
+        "": [
+            "Q36"
+        ],
+        "@isTerminatingState": false
+    },
+    "Q32": {
+        "@isTerminatingState": false,
+        "c": [
+            "Q33"
+        ]
+    },
+    "Q33": {
+        "@isTerminatingState": false,
+        "d": [
+            "Q34"
+        ]
+    },
+    "Q34": {
+        "": [
+            "Q36"
+        ],
+        "@isTerminatingState": false
+    },
+    "Q35": {
+        "": [
+            "Q29",
+            "Q32"
+        ],
+        "@isTerminatingState": false
+    },
+    "Q36": {
+        "": [
+            "Q38",
+            "Q37"
+        ],
+        "@isTerminatingState": false
+    },
+    "Q37": {
+        "": [
+            "Q35",
+            "Q38"
+        ],
+        "@isTerminatingState": false
+    },
+    "Q38": {
+        "@isTerminatingState": true
+    }
+}

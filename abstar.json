@@ -1,0 +1,32 @@
+{
+    "@startingState": "Q17",
+    "Q14": {
+        "@isTerminatingState": false,
+        "a": [
+            "Q15"
+        ]
+    },
+    "Q15": {
+        "@isTerminatingState": false,
+        "b": [
+            "Q16"
+        ]
+    },
+    "Q16": {
+        "": [
+            "Q18",
+            "Q17"
+        ],
+        "@isTerminatingState": false
+    },
+    "Q17": {
+        "": [
+            "Q14",
+            "Q18"
+        ],
+        "@isTerminatingState": false
+    },
+    "Q18": {
+        "@isTerminatingState": true
+    }
+}
