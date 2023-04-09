@@ -1,63 +1,63 @@
 {
-    "@startingState": "Q37",
-    "Q29": {
+    "@startingState": "Q037",
+    "Q029": {
         "@isTerminatingState": false,
         "a": [
-            "Q30"
+            "Q030"
         ]
     },
-    "Q30": {
+    "Q030": {
         "@isTerminatingState": false,
         "b": [
-            "Q31"
+            "Q031"
         ]
     },
-    "Q31": {
-        "": [
-            "Q36"
-        ],
-        "@isTerminatingState": false
+    "Q031": {
+        "@isTerminatingState": false,
+        "epsilon": [
+            "Q036"
+        ]
     },
-    "Q32": {
+    "Q032": {
         "@isTerminatingState": false,
         "c": [
-            "Q33"
+            "Q033"
         ]
     },
-    "Q33": {
+    "Q033": {
         "@isTerminatingState": false,
         "d": [
-            "Q34"
+            "Q034"
         ]
     },
-    "Q34": {
-        "": [
-            "Q36"
-        ],
-        "@isTerminatingState": false
+    "Q034": {
+        "@isTerminatingState": false,
+        "epsilon": [
+            "Q036"
+        ]
     },
-    "Q35": {
-        "": [
-            "Q29",
-            "Q32"
-        ],
-        "@isTerminatingState": false
+    "Q035": {
+        "@isTerminatingState": false,
+        "epsilon": [
+            "Q029",
+            "Q032"
+        ]
     },
-    "Q36": {
-        "": [
-            "Q38",
-            "Q37"
-        ],
-        "@isTerminatingState": false
+    "Q036": {
+        "@isTerminatingState": false,
+        "epsilon": [
+            "Q038",
+            "Q037"
+        ]
     },
-    "Q37": {
-        "": [
-            "Q35",
-            "Q38"
-        ],
-        "@isTerminatingState": false
+    "Q037": {
+        "@isTerminatingState": false,
+        "epsilon": [
+            "Q035",
+            "Q038"
+        ]
     },
-    "Q38": {
+    "Q038": {
         "@isTerminatingState": true
     }
 }

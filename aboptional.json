@@ -1,31 +1,31 @@
 {
-    "@startingState": "Q27",
-    "Q24": {
+    "@startingState": "Q027",
+    "Q024": {
         "@isTerminatingState": false,
         "a": [
-            "Q25"
+            "Q025"
         ]
     },
-    "Q25": {
+    "Q025": {
         "@isTerminatingState": false,
         "b": [
-            "Q26"
+            "Q026"
         ]
     },
-    "Q26": {
-        "": [
-            "Q28"
-        ],
-        "@isTerminatingState": false
+    "Q026": {
+        "@isTerminatingState": false,
+        "epsilon": [
+            "Q028"
+        ]
     },
-    "Q27": {
-        "": [
-            "Q24",
-            "Q28"
-        ],
-        "@isTerminatingState": false
+    "Q027": {
+        "@isTerminatingState": false,
+        "epsilon": [
+            "Q024",
+            "Q028"
+        ]
     },
-    "Q28": {
+    "Q028": {
         "@isTerminatingState": true
     }
 }
