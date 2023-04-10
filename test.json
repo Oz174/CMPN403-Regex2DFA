@@ -1,181 +1,181 @@
 {
-    "@startingState": "Q017",
+    "@startingState": "Q000",
     "Q000": {
         "@isTerminatingState": false,
-        "a": [
-            "Q001"
+        "\u03b5": [
+            "Q003",
+            "Q024"
         ]
     },
     "Q001": {
         "@isTerminatingState": false,
-        "\u03b5": [
-            "Q005"
+        "a": [
+            "Q023"
         ]
     },
     "Q002": {
         "@isTerminatingState": false,
         "b": [
-            "Q003"
+            "Q030"
         ]
     },
     "Q003": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q005"
+            "Q001",
+            "Q002"
         ]
     },
     "Q004": {
         "@isTerminatingState": false,
-        "\u03b5": [
-            "Q000",
-            "Q002"
+        "d": [
+            "Q015"
         ]
     },
     "Q005": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q018",
-            "Q017"
+            "Q029"
         ]
     },
     "Q006": {
         "@isTerminatingState": false,
-        "c": [
-            "Q007"
+        "\u03b5": [
+            "Q004",
+            "Q005"
         ]
     },
     "Q007": {
         "@isTerminatingState": false,
-        "b": [
-            "Q008"
+        "\u03b5": [
+            "Q013",
+            "Q021"
         ]
     },
     "Q008": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q014",
-            "Q013"
+            "Q018",
+            "Q019"
         ]
     },
     "Q009": {
         "@isTerminatingState": false,
-        "a": [
-            "Q010"
+        "\u03b5": [
+            "Q007",
+            "Q008"
         ]
     },
     "Q010": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q012"
+            "Q022"
         ]
     },
     "Q011": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q009",
-            "Q012"
+            "Q010"
         ]
     },
     "Q012": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q016"
+            "Q021"
         ]
     },
     "Q013": {
         "@isTerminatingState": false,
-        "\u03b5": [
-            "Q006",
-            "Q014"
+        "a": [
+            "Q012"
         ]
     },
     "Q014": {
         "@isTerminatingState": false,
-        "\u03b5": [
-            "Q016"
+        "a": [
+            "Q011"
         ]
     },
     "Q015": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q011",
-            "Q013"
+            "Q005"
         ]
     },
     "Q016": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q028",
-            "Q027"
+            "Q006"
         ]
     },
     "Q017": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q004",
-            "Q018"
+            "Q016",
+            "Q010"
         ]
     },
     "Q018": {
         "@isTerminatingState": false,
-        "\u03b5": [
-            "Q029"
+        "c": [
+            "Q027"
         ]
     },
     "Q019": {
         "@isTerminatingState": false,
-        "b": [
+        "\u03b5": [
             "Q020"
         ]
     },
     "Q020": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q022",
-            "Q021"
+            "Q028",
+            "Q029"
         ]
     },
     "Q021": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q019"
+            "Q020"
         ]
     },
     "Q022": {
+        "@isTerminatingState": false,
+        "b": [
+            "Q017"
+        ]
+    },
+    "Q023": {
         "@isTerminatingState": false,
         "\u03b5": [
             "Q025"
         ]
     },
-    "Q023": {
-        "@isTerminatingState": false,
-        "d": [
-            "Q024"
-        ]
-    },
     "Q024": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q026"
+            "Q014"
         ]
     },
     "Q025": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q023",
-            "Q026"
+            "Q024",
+            "Q000"
         ]
     },
     "Q026": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q027"
+            "Q019",
+            "Q008"
         ]
     },
     "Q027": {
         "@isTerminatingState": false,
-        "\u03b5": [
-            "Q015"
+        "b": [
+            "Q026"
         ]
     },
     "Q028": {
@@ -183,14 +183,14 @@
     },
     "Q029": {
         "@isTerminatingState": false,
-        "a": [
-            "Q030"
+        "\u03b5": [
+            "Q009"
         ]
     },
     "Q030": {
         "@isTerminatingState": false,
         "\u03b5": [
-            "Q021"
+            "Q025"
         ]
     }
 }
